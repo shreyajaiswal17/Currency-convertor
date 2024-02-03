@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   min-height: 100vh; 
+   /* background-color: rgb(222, 202, 131); */
+   background-image: url("https://youmatter.world/app/uploads/sites/2/2021/04/local-currencies-alternative-economy2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.backImg{
+    height:100vh;
+    width:100vw;
+    background-size: cover;
+}
+
+.container{
+    background-color: white;
+    padding:2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 45vh9;
+}
+form{
+    margin: 2rem 0 1rem ;
+}
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline:none;
+    border-radius: 0.75rem;
+}
+form input{
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+.dropdown i{
+   font-size: 1.15rem;
+   margin-top: 1rem;  
+}
+
+.selectContainer img{
+    max-width: 2rem;
+}
+
+.selectContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+  border: 1px solid lightgray;
+    border-radius: 0.5rem;
+}
+
+.selectContainer select{
+    font-size: 1rem;
+    width: auto;
+}
+.msg{
+    margin: 2rem 0 2rem 0;
+}
+
+form button{
+    height: 3rem;
+    background-color: rgb(82, 216, 247);
+    color: #fff;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
